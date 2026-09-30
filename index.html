@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust - Plan Your Next Adventure</title>
+    <!-- Google Fonts for elevated typography -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="logo">Wanderlust<span>.</span></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#contact">Contact Here</a></li>
+            </ul>
+        </nav>
+        <a href="#booknow" class="btn-nav">Book Now</a>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Explore the World, One Story at a Time</h1>
+            <p>Plan and book your perfect trip with expert advice, travel guides, destination information and inspiration from us.</p>
+        </div>
+
+        <!-- Travel Planner/Search Widget -->
+        <div class="planner-widget">
+            <div class="input-group">
+                <label for="destination">Where to?</label>
+                <input type="text" id="destination" placeholder="e.g., Delhi,Kerala">
+            </div>
+            <div class="input-group">
+                <label for="date">When?</label>
+                <input type="date" id="date">
+            </div>
+            <div class="input-group">
+                <label for="travelers">Travelers</label>
+                <select id="travelers">
+                    <option value="1">1 Person</option>
+                    <option value="2">2 People</option>
+                    <option value="3-5">3-5 People</option>
+                    <option value="6+">Group (6+)</option>
+                </select>
+            </div>
+            <button type="submit" class="btn-search">Explore Now</button>
+        </div>
+    </section>
+
+    <!-- Popular Destinations Section -->
+    <section id="destinations" class="destinations-section">
+        <h2 class="section-title">Popular Destinations</h2>
+        <p class="section-subtitle">Most loved places by global travelers this season</p>
+        
+        <div class="destinations-grid">
+            <!-- Card 1 -->
+            <div class="dest-card">
+                <div class="card-img-container">
+                    <img src="img1.jpeg" alt="Bali, Indonesia">
+                </div>
+                <div class="card-info">
+                    <h3>Bali, Indonesia</h3>
+                    <p>Unwind on beautiful pristine sandy beaches, scenic volcanic structures, and coral reefs.</p>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="dest-card">
+                <div class="card-img-container">
+                    <img src="img2.jpeg" alt="Jaipur, Rajasthan">
+                </div>
+                <div class="card-info">
+                    <h3>Jaipur, Rajasthan</h3>
+                    <p>Pink City, where majestic palaces, vibrant bazaars, and timeless heritage bring India's royal history to life.</p>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="dest-card">
+                <div class="card-img-container">
+                    <img src="img3.jpeg" alt="Delhi">
+                </div>
+                <div class="card-info">
+                    <h3>Delhi</h3>
+                    <p>Discover India's golden heart, where the bustling, historic capital of Delhi leads you straight to the timeless romance of Agra's Taj Mahal.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
